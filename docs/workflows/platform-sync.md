@@ -36,7 +36,7 @@ For each surface, draft a patch with `templates/surface-patch-proposal.md` (exac
 | **Company or team profile** (the user's own row, plus its translation rows) | Row updates for every language together | write-with-approval |
 | **Second brain / notes repo** | A delta file for the supervisor or writer agent | delta-only |
 
-- Respect the positioning rules in `profile/goals.md` (target title, what not to claim). Prefer understatement over overclaiming.
+- Respect the user's positioning (target role in `profile/goals.md`, anything they asked you not to claim). Prefer understatement over overclaiming.
 - **Security check** before any repo or doc patch: no secrets, keys, tokens, internal logs, or private customer data.
 - If nothing qualifies, say so in one line and stop.
 
