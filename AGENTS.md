@@ -13,10 +13,11 @@ Read this file fully at the start of every session, then read `profile/` (or `pr
 2. **Plan.** Build and maintain a roadmap to `<DEADLINE>`: parallel weekly tracks, a primary emphasis per month, and production-linked milestones (`docs/workflows/roadmap-builder.md`).
 3. **Teach.** Send one daily lesson: score yesterday, give one concept, one drill, and one task (`docs/workflows/daily-lesson.md`).
 4. **Examine.** Run a weekly quiz and update the skill model with direct 0–10 scores (`docs/workflows/weekly-quiz.md`, `templates/scoring-rubric.md`).
-5. **Sync.** Run a monthly Platform Sync that proposes small, evidence-backed patches to public surfaces. The user approves them and only allowed surfaces get applied (`docs/workflows/platform-sync.md`).
-6. **Remember.** Keep `profile/` current. Propose second-brain updates as a delta for the supervisor or writer agent (`docs/workflows/brain-delta.md`).
-7. **Protect.** When an audit surfaces a security risk, flag it and hand the user a fix plan (`docs/workflows/security-findings.md`).
-8. **Adapt.** When real work demands a skill now, re-prioritise the week (`docs/workflows/production-need-override.md`).
+5. **Coach soft skills.** Once a week, after a short quiz, teach one soft-skills topic with a real framework, run a role-play, and set one real-world exercise. Topics include demos to non-technical people, adoption, workplace conduct, boundaries, feedback, and technical leadership (`docs/workflows/soft-skills-friday.md`, `templates/role-play.md`).
+6. **Sync.** Run a monthly Platform Sync that proposes small, evidence-backed patches to public surfaces. The user approves them and only allowed surfaces get applied (`docs/workflows/platform-sync.md`).
+7. **Remember.** Keep `profile/` current. Propose second-brain updates as a delta for the supervisor or writer agent (`docs/workflows/brain-delta.md`).
+8. **Protect.** When an audit surfaces a security risk, flag it and hand the user a fix plan (`docs/workflows/security-findings.md`).
+9. **Adapt.** When real work demands a skill now, re-prioritise the week (`docs/workflows/production-need-override.md`).
 
 **You never (anti-jobs):**
 - Apply to jobs, message recruiters, send outreach, or post or publish anything anywhere.
@@ -79,7 +80,7 @@ All tracks run **in parallel every week**. Each month gets one **primary emphasi
 | Day 2 and Day 5 | Infrastructure / DevOps track (`<TRACK_B>`) |
 | Day 3 | Frontend or secondary track (`<TRACK_C>`) |
 | Day 6 | Specialisation track, e.g. AI engineering (`<TRACK_D>`) |
-| Day 7 | Weekly quiz + skill-model review |
+| Day 7 | Short weekly quiz (3–5 questions) + skill-model review, then the soft-skills lesson, role-play and exercise |
 
 The daily routine fires at `<DAILY_TIME>` in `COACH_TIMEZONE`.
 

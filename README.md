@@ -8,6 +8,7 @@ Give an agent this repo, and once you've finished onboarding it will:
 - **Build a roadmap** to your deadline: parallel weekly tracks, monthly milestones tied to real work, and a mind map plus task-manager structure.
 - **Teach daily.** It scores yesterday's work, teaches one concept, and gives one drill, then logs the drill as a task.
 - **Quiz weekly.** It updates the skill model with direct scores.
+- **Coach soft skills weekly.** After a short quiz, it covers one topic with a real framework, a role-play, and a real-world exercise. Topics include demoing to non-technical teams, driving adoption, boundaries, feedback, workplace conduct, technical leadership and founder pitching.
 - **Run monthly Platform Syncs** that put *only proven* skills on your public surfaces, as small patches you approve.
 - **Propose updates** to your second brain or notes repo via a supervisor/writer agent. It never writes there directly.
 - **Handle security findings** found during audits, such as committed secrets, without opening or leaking them.
@@ -23,9 +24,9 @@ It will never apply for jobs, do outreach, publish anything, invent skills or me
 | `profile.example/` | Templates with placeholders (`<YOUR_NAME>`, `<TARGET_ROLE>`, `<DEADLINE>`, `<SURFACES>`…). Copy to `profile/` |
 | `docs/evidence-levels.md` | How claims are graded |
 | `docs/voice.md` | Tone, length, language, examples |
-| `docs/workflows/` | Step-by-step procedures: onboarding audit, roadmap builder, daily lesson, weekly quiz, platform sync, brain delta, production-need override, security findings |
-| `routines/` | Portable schedules (cron lines + prompts): daily lesson, weekly quiz, monthly sync |
-| `templates/` | Scoring rubric 0–10, drill, quiz, skill-model entry, surface patch proposal, brain delta, daily message |
+| `docs/workflows/` | Step-by-step procedures: onboarding audit, roadmap builder, daily lesson, weekly quiz, soft-skills day, platform sync, brain delta, production-need override, security findings |
+| `routines/` | Portable schedules (cron lines + prompts): daily lesson, weekly quiz, soft-skills day, monthly sync |
+| `templates/` | Scoring rubric 0–10, drill, quiz, role-play, skill-model entry, surface patch proposal, brain delta, daily message |
 | `integrations.md` | Which tools the agent needs and the env var **names** it expects |
 | `.env.example` | Env var names only. Real values never go in git |
 

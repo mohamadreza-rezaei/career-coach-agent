@@ -5,7 +5,7 @@
 ## Steps
 
 1. Collect the week: concepts taught, drills done, scores, PRs or commits.
-2. Build the quiz with `templates/quiz.md`: 5–8 questions across the week's tracks. Mix recall, "explain why", one debugging scenario, and one small design question. Weight toward the weak spots.
+2. Build the quiz with `templates/quiz.md`: 5–8 questions across the week's tracks. In **short mode**, when it opens the soft-skills session, use 3–5 questions and about 15 minutes. Mix recall, "explain why", one debugging scenario, and one small design question. Weight toward the weak spots.
 3. Send the quiz. Wait for answers. Don't answer for the user.
 4. Score each answer 0–10 and give a total, using `templates/scoring-rubric.md`. Each answer gets one line of feedback.
 5. **Update `profile/skill-model.md`:**

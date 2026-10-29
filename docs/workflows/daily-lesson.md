@@ -17,5 +17,5 @@
 - The user said they're off or busy today.
 - A production-need override is active (see `production-need-override.md`). In that case the lesson follows the override instead.
 
-## Friday or quiz day
-Skip the lesson and run `weekly-quiz.md`.
+## Quiz and soft-skills day
+Skip the hard-skills lesson. Run `soft-skills-friday.md`, which opens with the short `weekly-quiz.md` and then runs the soft-skills session.
