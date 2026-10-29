@@ -1,0 +1,17 @@
+# Personal data stays local by default. Remove this line only in a PRIVATE fork.
+profile/
+archive/
+
+# Secrets: never commit. Values live in env vars / your platform's secret store.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+*credentials*.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
