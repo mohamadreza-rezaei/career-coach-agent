@@ -9,7 +9,7 @@ Give an agent this repo, and once you've finished onboarding it will:
 - **Teach daily.** It scores yesterday's work, teaches one concept, and gives one drill, then logs the drill as a task.
 - **Quiz weekly.** It updates the skill model with direct scores.
 - **Coach soft skills weekly.** After a short quiz, it covers one topic with a real framework, a role-play, and a real-world exercise. Topics include demoing to non-technical teams, driving adoption, boundaries, feedback, workplace conduct, technical leadership and founder pitching.
-- **Run monthly Platform Syncs** that put *only proven* skills on your public surfaces, as small patches you approve.
+- **Run monthly Platform Syncs** that put *only proven* skills on your public surfaces, as small patches you approve per surface (copy-paste text for surfaces without write access). Quiet when nothing new is proven.
 - **Propose updates** to your second brain or notes repo via a supervisor/writer agent. It never writes there directly.
 - **Handle security findings** found during audits, such as committed secrets, without opening or leaking them.
 
