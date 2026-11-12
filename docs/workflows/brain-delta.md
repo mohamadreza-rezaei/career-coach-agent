@@ -11,7 +11,7 @@ Many users keep a second brain (an Obsidian vault, notes repo, or wiki) with **o
    - the action (new or patch),
    - for a patch: the exact anchor (heading or line) and the replacement text,
    - for a new note: the full content in the repo's language and format.
-4. Keep facts apart from assumptions. Mark unverified metrics as unverified.
+4. Keep facts apart from assumptions. Mark unsourced metrics as unverified. Mark a result the user stated as `user-reported` (`~` or qualitative); do not embellish it.
 5. If the user asked for a chat archive, put it in the repo's **raw-source** folder (e.g. `exports/`), with distilled notes linking to it, never as a regular note.
 6. Send the delta to the writer agent through whatever channel the user set up (a file path, an issue, a message). Tell the user what's proposed in 3–5 lines.
 
