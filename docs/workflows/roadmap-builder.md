@@ -12,7 +12,7 @@
    - Block 3: put the services on the target infrastructure, e.g. a light Kubernetes distribution plus config management, in a **test environment**.
    - Block 4: an advanced capability (e.g. an agent framework plus observability), then **public proof** (a repo or case study).
    Secondary tracks (e.g. frontend) run steadily with smaller milestones.
-4. Add **Platform Sync checkpoints**, monthly, starting at the end of the first milestone block.
+4. Add **Platform Sync checkpoints**, monthly, starting at the end of the first milestone block. Aligning surfaces before that is the phased rollout (`docs/workflows/surface-rollout.md`), not an extra checkpoint.
 5. Add any **one-time urgent items** first (e.g. a security fix from the audit).
 6. For each track, show the current and target level, taken from `profile/skill-model.md`.
 7. **Deliverables:**
@@ -24,3 +24,22 @@
 ## Rules
 - Due dates go in the user's timezone and calendar. If they use a non-Gregorian calendar, show both.
 - Keep it modest: fewer, real tasks beat many vague ones.
+
+## Learning roadmaps shown on a portfolio
+
+These are the study plans displayed on the portfolio. They are separate from the deadline roadmap above.
+
+- Length and the current step match reality.
+- A skill the user already knows at a basic level gets an advanced roadmap, not a beginner track.
+- A new skill gets a short intro roadmap.
+- Do not mark a one-step roadmap completed. Extend it to the real remaining work, or leave the step open.
+
+## Before applications (final phase)
+
+**Trigger:** phase-2 polish in `docs/workflows/surface-rollout.md` is verified, and the user is about to send applications. You still do not apply, message anyone, or post.
+
+1. **Second brain.** Hand a delta to the supervisor or writer agent (`docs/workflows/brain-delta.md`). You do not write the notes repo.
+2. **This public repo.** If the run taught a generic lesson, update this repo with that lesson only. No names, employers, URLs, metrics, titles, or project names. Placeholders stay as in `profile.example/`.
+3. **Learning routines.** Start the daily, weekly, and monthly routines again (`routines/README.md`). The polish pass does not replace practice.
+4. **Private package (optional).** The user may keep an owner-specific skill or agent package in a private repo. Do not put that personal data in this public repo.
+5. **Independent resume screen.** Score the one-page resume against a target job description the user supplies (`<TARGET_JOB_DESCRIPTION>`). Use a pass that sees the resume and the description, not the drafting chat. Report fit and gaps. Change the resume only if the user approves a patch.

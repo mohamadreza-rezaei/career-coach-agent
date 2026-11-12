@@ -10,6 +10,7 @@ Give an agent this repo, and once you've finished onboarding it will:
 - **Quiz weekly.** It updates the skill model with direct scores.
 - **Coach soft skills weekly.** After a short quiz, it covers one topic with a real framework, a role-play, and a real-world exercise. Topics include demoing to non-technical teams, driving adoption, boundaries, feedback, workplace conduct, technical leadership and founder pitching.
 - **Run monthly Platform Syncs** that put *only proven* skills on your public surfaces, as small patches you approve per surface (copy-paste text for surfaces without write access). Quiet when nothing new is proven.
+- **Align existing facts in phases** when you ask (`docs/workflows/surface-rollout.md`): lock the title, then the portfolio, LinkedIn, the code-host profile, the team or studio profile and link-in-bio, then a one-page resume. A polish pass comes before applications. Each step is an exact diff you approve.
 - **Propose updates** to your second brain or notes repo via a supervisor/writer agent. It never writes there directly.
 - **Handle security findings** found during audits, such as committed secrets, without opening or leaking them.
 
@@ -24,7 +25,7 @@ It will never apply for jobs, do outreach, publish anything, invent skills or me
 | `profile.example/` | Templates with placeholders (`<YOUR_NAME>`, `<TARGET_ROLE>`, `<DEADLINE>`, `<SURFACES>`…). Copy to `profile/` |
 | `docs/evidence-levels.md` | How claims are graded |
 | `docs/voice.md` | Tone, length, language, examples |
-| `docs/workflows/` | Step-by-step procedures: onboarding audit, roadmap builder, daily lesson, weekly quiz, soft-skills day, platform sync, brain delta, production-need override, security findings |
+| `docs/workflows/` | Step-by-step procedures: onboarding audit, roadmap builder, daily lesson, weekly quiz, soft-skills day, platform sync, surface rollout, portfolio transparency, brain delta, production-need override, security findings |
 | `routines/` | Portable schedules (cron lines + prompts): daily lesson, weekly quiz, soft-skills day, monthly sync |
 | `templates/` | Scoring rubric 0–10, drill, quiz, role-play, skill-model entry, surface patch proposal, brain delta, daily message |
 | `integrations.md` | Which tools the agent needs and the env var **names** it expects |
@@ -36,7 +37,7 @@ It will never apply for jobs, do outreach, publish anything, invent skills or me
 2. Copy the templates: `cp -r profile.example profile`. The `profile/` folder is git-ignored by default, so your personal data stays local. Remove that line from `.gitignore` only if your fork is private and you want it versioned.
 3. Set the env vars from `.env.example` in the agent's runtime or secret store, never in files.
 4. Load `AGENTS.md` as the agent's system prompt or instructions file.
-5. Send the agent: **"Start onboarding."** It runs `setup/onboarding-interview.md`, then `docs/workflows/onboarding-audit.md`, then `docs/workflows/roadmap-builder.md`.
+5. Send the agent: **"Start onboarding."** It runs `setup/onboarding-interview.md`, then `docs/workflows/onboarding-audit.md`, then `docs/workflows/roadmap-builder.md`. Aligning public surfaces is a separate approved rollout (`docs/workflows/surface-rollout.md`), not part of the read-only audit.
 6. Install the routines from `routines/`, using your agent platform's scheduler or plain cron.
 
 ### OpenClaw
@@ -52,7 +53,7 @@ Any agent that can (a) read files, (b) call a few tools and (c) run on a schedul
 
 ## Principles in one breath
 
-Evidence over vibes. Small patches over rewrites. Teach and score; don't flatter. Stay quiet when nothing is new. Nothing public without your yes. Secrets live in env vars only.
+Evidence over vibes. Small patches over rewrites. Teach and score; don't flatter. Stay quiet when nothing is new. Nothing public without your yes. Snapshot a surface before writing it, unless you opted out for a low-risk polish pass. Secrets live in env vars only.
 
 ## License
 

@@ -19,10 +19,10 @@
    - **Second brain / notes:** read the protocol files first (`AGENTS.md`, `BRAIN.md` or equivalent), then the career, goals, and profile notes. Read-only.
 3. **Build the skill matrix.** One row per area (e.g. backend, language X, frontend, DevOps, specialisation, automation, databases, ownership), each with a level estimate, an evidence level (`docs/evidence-levels.md`), the key proof, and source tags.
 4. **Build the project inventory:** name, what it is, stack, status, public or private, evidence link.
-5. **Surface consistency table:** what each surface says for title, summary, and skills.
+5. **Surface consistency table:** what each surface says for title, summary, and skills. If a title is locked in `profile/profile.md`, compare every surface to that lock.
 6. **Contradictions list:** titles, dates, numbers, roles, versions, and project names that disagree. Write them to `profile/contradictions.md` with status `open`.
 7. **Gaps vs goals:** the 5–8 biggest, ranked.
-8. **Fixes per surface:** copy suggestions only. Nothing is applied during the audit.
+8. **Fixes per surface:** copy suggestions only. Nothing is applied during the audit. Later edits follow `docs/workflows/surface-rollout.md` (title lock first), not this list's order.
 9. **Security scan (names only).** If you see committed files whose names suggest secrets, user data, or logs, list the paths and **don't open them**. Then follow `security-findings.md`.
 10. **Deliver:**
     - a report the user can come back to (a page, doc, or Markdown file);
@@ -33,3 +33,4 @@
 - Never invent. Unknown means "not found", plus where you looked.
 - Tag every claim with its source.
 - Mark AI-written or unsourced metrics as **unverified**.
+- Results the user states are `user-reported`: keep `~`, do not embellish, and use qualitative wording when they gave no number (`docs/evidence-levels.md`).

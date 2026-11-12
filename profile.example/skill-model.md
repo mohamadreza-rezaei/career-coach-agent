@@ -16,5 +16,8 @@
 ## Gaps vs target
 - <gap>
 
+## User-reported results (keep the `~`; never embellish; qualitative is fine)
+- <~result, or a qualitative result> (source: user, <date>)
+
 ## Unverified claims (never repeat publicly)
 - <claim> (source: <surface>)
